@@ -27,5 +27,5 @@ def main():
     print(f"Valor: {aluguel_por_dia.calcularValor()}")
     print(aluguel_por_dia.gerarRecibo())
 
-if _name_ == "_main_":
+if __name__ == "__main__":
     main()
